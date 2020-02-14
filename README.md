@@ -1,5 +1,5 @@
 # pet-store-api-test
-technical test for N26 job application
+technical test for job application
 
 Tests are developed using Karate framework, was chosen because is easy to use, there is only the need to configure via maven or gradle and then you are ready to start writing your tests.
 
