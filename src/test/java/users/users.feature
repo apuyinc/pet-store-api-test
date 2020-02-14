@@ -7,6 +7,7 @@ Feature: test user management
     * def update_user_data = read('classpath:testData/update_user-'+environment+'.json')
     * def non_existing_user = 'NonExistingUser'
     * def result = call read('classpath:common/login.feature')
+    * configure headers = { 'Accept': 'application/json' }
     # This token can be used in case of required 
     * print result.token  
   

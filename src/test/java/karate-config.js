@@ -3,14 +3,14 @@ function fn() {
   karate.log('karate.env system property was:', env);
   if (!env) {
     env = 'local';
-    loginUrl = 'login';
-    userUrl = 'user';
-    petUrl = 'pet';
-    environment = env;
   }
+
   var config = {
     baseUrl : 'http://localhost:8080',
-    environment : env
+    environment : env,
+    loginUrl : 'login',
+    userUrl : 'user',
+    petUrl : 'pet'
   };
   
   if (env == 'local') {
